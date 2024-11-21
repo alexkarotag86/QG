@@ -1,0 +1,19 @@
+import random
+
+# List of inspirational quotes
+quotes = [
+    "The best way to predict the future is to create it.",
+    "Dream big and dare to fail.",
+    "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "Success is not the key to happiness. Happiness is the key to success.",
+    "Act as if what you do makes a difference. It does."
+]
+
+def generate_quote():
+    """Returns a random inspirational quote."""
+    return random.choice(quotes)
+
+# Main function
+if __name__ == "__main__":
+    print("Here is your random inspiration:")
+    print(generate_quote())
